@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20201112.2.940716_SAP" APIVersion="3.6.20316.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2023-01-05T08:25:25Z" uuid="60035081-7be7-469e-a862-24fac2ff781c">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="ko_KR" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="146.05mm" w="196.85mm" x="6.35mm" y="79.375mm"/>
+            <subform h="12.7mm" name="Title" w="196.85mm" x="6.35mm" y="3.175mm">
+               <bind match="none"/>
+               <draw h="9mm" id="SAP_Logo_for_Native_copy3_copy1" name="SAP_Logo" w="20mm" x="47.625mm" y="3.175mm">
+                  <value>
+                     <image contentType="image/bmp">Qk0yDwAAAAAAAAAAAAAoAAAASQAAACUAAAABAAgAAAAAAPwKAAAAAAAAAAAAAAABAAAAAQAAZjMA
+AOLZzwCff18AeUwfAMWynwD3//8AjGU/ALKZfwDPv68A7OXfAG8/DwCDWTAAqYxvAJZzUADZzL8A
+vKWPAPXy7wD///8AxbShALOZgACggGAA49nQAL2llACpjXAAcEAQAPf37wD///8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFBQUF
+BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUFBQUF
+BQUFBQUFERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAASBQUFBQUFBQUFBREREREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIFBQUFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUF
+BQUFBQUFERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAEBQUFBQUFBREREREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAALBg0HBgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BAUFBQUFERERERERERERERERERERERERERERERERAAAAAAAKAggREREREREREAQDDxEREREREAAA
+AAAAAAAAAAQRERERERERERERBgAEBQUFBREREREREREREREREREREREREREREREREQAAAAAHEBER
+EREREREREREREQQRERERERENAAAAAAAAAAAQEREREREREREREQYAAAQFBQURERERERERERERERER
+EREREREREREREREAAAAABBERERERERERERERERERERERERERBAADBgYGCwANEREREREREREREREG
+AAAAEgUFERERERERERERERERERERERERERERERERAAAAAAMRERERERERERERERERERERERERERAJ
+ERERERERCRERERERERERERERBgAAAAAEBREREREREREREREREREREREREREREREREQAAAAAABBER
+EQ4TExMEEREREREREREREREREREREREREREREREREREREREREQYAAAAAAAQRERERERERERERERER
+EREREREREREREREAAAAAAAMQExgAAAAAAAYREREREREREREREREREREREREREREREREBEREREREG
+AAAAAAAABBERERERERERERERERERERERERERERERAAAAAAAACxgAAAAAAAAKERERERERERERERER
+EREREREREREREREEDhERERERDAYLAAAAAAASEREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAADAREREREREREREREREREODg4QERERERERDQ4RERERERERERERAQcDABIRERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAwwBEREREREREREOEREREREPAAAACxEREREREAAOERERERER
+EREREREREQcAEhERERERERERERERERERERERERERAAAAAAAAAAACCBEREREREREREREOAxERERER
+CQAAABcREREREQ8ADhERERERERERERERERERBAASEREREREREREREREREREREREREQAAAAAAAAsB
+EREREREREREREREQCwABERERERELAAABERERERELAA4RERERERERERERERERERECABIRERERERER
+EREREREREREREREAAAAAAAIQEREREREREREREREBCwAAAhERERERDwADEREREREBAAAOEREREREV
+DhURERERERERCQAAEhERERERERERERERERERERERAAAAAAMQEREREREREREREQkXAAAAABgRERER
+EQEAFxERERERDAAADhERERERBgAAABcRERERERELAAAEEREREREREREREREREREREQAAAAAEERER
+EREREREQBAYAAAAAAAAABBERERERAwgREREREQMAAA4REREREQYAAAAADhERERERAgAAAAQRERER
+EREREREREREREREAAAAACREREREREQ4UAAAAAAAAAAAAAA0RERERERcVEREREQgAAAAOEREREREG
+AAAAABMREREREQcAAAAABBERERERERERERERERERAAAAABEREREREQ8AAAAAAAAAAAAAAAAACRER
+EREQARERERECAAAADhERERERBgAAAAAPERERERECAAAAAAAEEREREREREREREREREQAAAAAQERER
+EREDAAAAAAAAAw8DAAAAAA8REREREREREREQAAAAAA4REREREQYAAAALEBERERERBgAAAAAAABIR
+EREREREREREREREAAAAACBERERERCQwGBg0HARERBgAAAAADERERERERERERBAAAAAAOEREREREE
+BwcIEREREREREAAAAAAAAAAAEhERERERERERERERAAAAAAYREREREREREREREREREQEAAAAAAAER
+EREREREREQsAAAAADhEREREREREREREREREREQcAAAAAAAAAAAAEEREREREREREREQAAAAAABBER
+ERERERERERERERERAgAAAAACEREREREREQkAAAAAAA4REREREREREREREREREQEYAAAAAAAAAAAA
+AAQREREREREREREAAAAAAAAEEREREREREREREREREQkAAAAAGBEREREREREHAAAAAAAOERERERER
+EREREREREQQYAAAAAAAAAAAAAAAABBERERERERERAAAAAAAAAA0BERERERERERERCBQAAAAAAAAE
+ERERERERAwAAAAAADhEREREREREREREBDwsAAAAAAAAAAAAAAAAAAAAEEREREREREQAAAAAAAAAA
+AAMUExMTExQGAAAAAAAAAAAAAwYGBgYGBgAAAAAAAAsGBgYGBgYGBgMAAAAAAAAAAAAAAAAAAAAA
+AAAAABIREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAABIREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABIAAAA=</image>
+                  </value>
+                  <ui>
+                     <imageEdit/>
+                  </ui>
+                  <assist>
+                     <toolTip xliff:rid="CFD722F8-D283-476C-B6A6-6CC5CE32F429">SAP Logo</toolTip>
+                     <speak priority="toolTip"/>
+                  </assist>
+               </draw>
+               <draw h="8.408mm" name="Text1" w="44.45mm" x="69.85mm" y="3.175mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="5E84BFB8-9E78-480D-AEF4-8D8ADE951B47">Booking List</text>
+                  </value>
+                  <font size="16pt" typeface="Arial Black"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <?renderCache.bounds 123166 21000 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 12 Booking List 0 8328 16526 0 0 0 "Arial Black" 0 0 16000 ISO-8859-1?></draw>
+               <?templateDesigner expand 0?></subform>
+            <subform h="60.346mm" name="Header" w="196.804mm" x="6.391mm" y="15.854mm">
+               <bind match="none"/>
+               <field h="9mm" name="CARRNAME" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="E992A590-D10A-4A3E-982F-CB8687A391B9">Airline</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="20"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SCARR.CARRNAME"/>
+                  <desc>
+                     <text name="Schema Annotation">Airline name</text>
+                  </desc>
+               </field>
+               <field h="9mm" name="URL" w="62mm" y="9.525mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="1A5A9535-08A8-4CED-9B49-3B2A5BE31BCD">Airline URL</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="255"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SCARR.URL"/>
+                  <desc>
+                     <text name="Schema Annotation">Airline URL</text>
+                  </desc>
+               </field>
+               <field h="9mm" name="CONNID" w="62mm" y="19.05mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="6918D2DA-30FB-4F4E-A96B-E84BC3BE5F1E">Schedule</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="4"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.CONNID"/>
+                  <desc>
+                     <text name="Schema Annotation">Flight Connection Number</text>
+                  </desc>
+               </field>
+               <field h="13mm" name="CITYFROM" w="37mm" y="31.75mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="top" reserve="0.185306in">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="3064D2F6-38C8-4FD6-B771-0F6EA16EE5DB">Depart. city</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="20"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.CITYFROM"/>
+                  <desc>
+                     <text name="Schema Annotation">Departure city</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field h="13mm" name="AIRPFROM" w="37mm" x="38.1mm" y="31.75mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="top" reserve="0.185306in">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="0D5DF1F7-F7D9-47A9-AD5B-7BE6688F80F3">Airport</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.AIRPFROM"/>
+                  <desc>
+                     <text name="Schema Annotation">Departure airport</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field h="13mm" name="DEPTIME" w="37mm" x="76.2mm" y="31.75mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <time/>
+                  </value>
+                  <caption placement="top" reserve="4.5507mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="1296257F-4504-4880-9469-7E529737FC8D">Depart</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.IS_SPFLI.DEPTIME">
+                     <picture>time{KK:MM:SS}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Departure time</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field h="13.707mm" name="CITYTO" w="37mm" y="44.45mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="top" reserve="0.185306in">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="AF7000D6-F124-4634-86A2-9B8EBD8980B2">Arrival city</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="20"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.CITYTO"/>
+                  <desc>
+                     <text name="Schema Annotation">Arrival city</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="204,255,204"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field h="13.707mm" name="AIRPTO" w="37mm" x="38.1mm" y="44.45mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="top" reserve="4.5507mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="B322729D-B4A1-4602-8BF9-6319A09DD748">Apt</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.AIRPTO"/>
+                  <desc>
+                     <text name="Schema Annotation">Destination airport</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="204,255,204"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field h="13mm" name="ARRTIME" w="37mm" x="76.2mm" y="44.45mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font size="9pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <time/>
+                  </value>
+                  <caption placement="top" reserve="0.185306in">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="07A27E8F-B608-44A9-BD33-AF36ED50AF38">Arrival</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.IS_SPFLI.ARRTIME">
+                     <picture>time{KK:MM:SS}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Departure time</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="204,255,204"/>
+                     </fill>
+                     <corner join="round" radius="2mm" thickness="0.176mm"/>
+                  </border>
+               </field>
+               <field access="readOnly" h="19.05mm" name="QRCodeBarcode1" w="19.05mm" x="76.2mm" y="9.525mm">
+                  <ui>
+                     <barcode dataLength="255" errorCorrectionLevel="1" moduleHeight="0.0167in" moduleWidth="0.0167in" type="QRCode"/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="BF4C6A1F-3C22-4DD1-82B1-E1E0D3316CDE">1234567890</text>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SCARR.URL"/>
+               </field>
+               <field h="13.594mm" name="Code128BBarCode1" w="36.844mm" x="152.4mm" y="6.35mm">
+                  <ui>
+                     <barcode checksum="auto" dataLength="10" textLocation="belowEmbedded" type="code128B" wideNarrowRatio="fixed"/>
+                  </ui>
+                  <font typeface="Courier New"/>
+                  <value>
+                     <text xliff:rid="DD400DAD-D096-43E7-88DF-D0AFD531B717">1234567890</text>
+                  </value>
+                  <bind match="dataRef" ref="$.IS_SPFLI.CONNID"/>
+               </field>
+               <?templateDesigner expand 0?></subform>
+            <subform h="57.135mm" name="Botton" w="203.2mm" x="6.35mm" y="228.6mm">
+               <bind match="none"/>
+               <subform h="57.001mm" name="IS_SPFLI" w="197.85mm">
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <field h="9mm" name="COUNTRYFR" w="62mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="7AC1A6C4-99D2-44BE-81D1-0C57E114A5E0">C/R</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.CITYFROM"/>
+                     <desc>
+                        <text name="Schema Annotation">Country/Region Key</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="CITYFROM" w="62mm" x="62mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="208252BA-3784-4108-8692-BE375C46520E">Depart. city</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.CITYFROM"/>
+                     <desc>
+                        <text name="Schema Annotation">Departure city</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="AIRPFROM" w="62mm" x="124mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="E4DF2342-A63A-48D1-96E3-AD9F2C6C636D">Airport</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.AIRPFROM"/>
+                     <desc>
+                        <text name="Schema Annotation">Departure airport</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="COUNTRYTO" w="62mm" y="9mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="20C6F782-912E-4D62-9DA9-DA13A52145AF">C/R</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.COUNTRYTO"/>
+                     <desc>
+                        <text name="Schema Annotation">Country/Region Key</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="CITYTO" w="62mm" x="62mm" y="9mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="1F74FE89-B57C-4E98-949D-8ABB5122A5D4">Arrival city</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.CITYTO"/>
+                     <desc>
+                        <text name="Schema Annotation">Arrival city</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="AIRPTO" w="62mm" x="124mm" y="9mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="20A0AB59-6E57-4B1E-9415-C18C887AD45F">Apt</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.AIRPTO"/>
+                     <desc>
+                        <text name="Schema Annotation">Destination airport</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="FLTIME" w="62mm" y="18mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <integer/>
+                     </value>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="AC317580-0A7B-4BD9-82D7-6996B9061FBC">FlghtTime</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_SPFLI.FLTIME"/>
+                     <desc>
+                        <text name="Schema Annotation">Flight time</text>
+                     </desc>
+                     <validate nullTest="error">
+                        <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+                     </validate>
+                  </field>
+                  <field h="9mm" name="DEPTIME" w="62mm" x="62mm" y="18mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <time/>
+                     </value>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="AF1D7E16-CEF3-4D92-86D7-CE9762C23D57">Depart</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_SPFLI.DEPTIME">
+                        <picture>time{KK:MM:SS}</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">Departure time</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                  </field>
+                  <field h="9mm" name="ARRTIME" w="62mm" x="124mm" y="18mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <time/>
+                     </value>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="4547477C-202C-4087-BDB4-E35334109659">Arrival</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_SPFLI.ARRTIME">
+                        <picture>time{KK:MM:SS}</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">Arrival time</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                  </field>
+                  <field h="9mm" name="DISTANCE" w="62mm" y="27mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="4" leadDigits="5"/>
+                     </value>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="FD2936F6-2FEB-447B-BBC4-F71A16DF5CBC">Dist.</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_SPFLI.DISTANCE"/>
+                     <desc>
+                        <text name="Schema Annotation">Distance</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                  </field>
+                  <field h="9mm" name="DISTID" w="62mm" x="62mm" y="27mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="D9AAD443-BC0C-4AB7-BED9-C4E65579F139">In</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.DISTID"/>
+                     <desc>
+                        <text name="Schema Annotation">Mass unit of distance (kms, miles)</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="FLTYPE" w="62mm" x="124mm" y="27mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="16657452-135B-47D3-BE9F-D79B8FDC31DD">Charter</text>
+                        </value>
+                     </caption>
+                     <value>
+                        <text maxChars="1"/>
+                     </value>
+                     <bind match="dataRef" ref="$.IS_SPFLI.FLTYPE"/>
+                     <desc>
+                        <text name="Schema Annotation">Flight type</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="PERIOD" w="62mm" y="36mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <integer/>
+                     </value>
+                     <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="ADB72B06-76BE-4CEB-AF2A-BFC1DA044ADD">Arrival n day(s) later</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.IS_SPFLI.PERIOD"/>
+                     <desc>
+                        <text name="Schema Annotation">Arrival n day(s) later</text>
+                     </desc>
+                     <validate nullTest="error">
+                        <script contentType="application/x-javascript">this.isNull || (this.rawValue &gt;= 0 &amp;&amp; this.rawValue &lt;= 255);
+
+</script>
+                     </validate>
+                  </field>
+                  <bind match="none"/>
+                  <desc>
+                     <text name="Schema Annotation">Flight schedule</text>
+                  </desc>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 0?></subform>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <subform h="8.075mm" name="PageNumber" w="114.75mm" x="95.25mm" y="288.925mm">
+               <bind match="none"/>
+               <draw name="Pages" x="3.175mm" y="3.175mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" maxLength="0" xliff:rid="6D5E3D76-9246-4CE5-AAF9-D351E65BA64C">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embed="#floatingField027138" xfa:embedMode="raw" xfa:embedType="uri"/> /<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField031943" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+               </draw>
+               <field access="readOnly" h="7.5mm" id="floatingField027138" name="CurrentPage" presence="hidden" w="55mm" x="62.812mm" y="227.538mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="F6C9A43C-8220-4B11-86A5-256D82B5CB4C">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder #?>
+                  <bind match="none"/>
+               </field>
+               <field access="readOnly" h="7.5mm" id="floatingField031943" name="PageCount" presence="hidden" w="55mm" x="62.812mm" y="227.538mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="5E25F15A-2F31-4F7C-8C1E-D8CCDA002AA5">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder ##?>
+                  <bind match="none"/>
+               </field>
+               <?templateDesigner expand 0?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform columnWidths="24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm" layout="table" name="IT_SBOOK">
+         <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="29C8CD6A-41EE-4CD3-B4FD-A202929395C9">Date</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+                  <edge/>
+                  <edge/>
+                  <edge presence="hidden"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner presence="hidden"/>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="910125A1-7557-4D87-A613-CE63BE84F4B4">Booking</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="3AD7C6C4-D147-49F9-910B-1EF10BBF7ACB">Wt</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="3D6074CD-059B-45DD-AC09-CA960D977DEB">in</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="54EFCA3F-038D-428B-8C88-159C79823768">Amount</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="24DA6436-2650-4175-96F2-8E9758959CB1">Curr.</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="44042A5B-8CC5-44B2-A29D-80B690938EE4">Book.date</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+               </border>
+            </draw>
+            <draw minH="7mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="A02FF257-AF0C-4829-8930-0335386F1191">Passenger</text>
+               </value>
+               <font typeface="Arial"/>
+               <para hAlign="center" vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+                  <fill>
+                     <color value="255,153,204"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge/>
+                  <edge/>
+                  <corner/>
+                  <corner presence="hidden"/>
+                  <corner/>
+                  <corner/>
+               </border>
+            </draw>
+            <assist role="TH"/>
+            <occur max="-1"/>
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="row" name="DATA">
+            <field h="9mm" name="FLDATE" w="62mm" y="0.354333in">
+               <ui>
+                  <dateTimeEdit>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <bind match="dataRef" ref="$.FLDATE">
+                  <picture>date{YYYY-MM-DD}</picture>
+               </bind>
+               <desc>
+                  <text name="Schema Annotation">Flight date</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+                  <edge/>
+                  <edge/>
+                  <edge presence="hidden"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner presence="hidden"/>
+               </border>
+            </field>
+            <field h="9mm" name="BOOKID" w="62mm" x="2.440944in" y="0.354333in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="8"/>
+               </value>
+               <bind match="dataRef" ref="$.BOOKID"/>
+               <desc>
+                  <text name="Schema Annotation">Booking number</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="LUGGWEIGHT" w="62mm" x="4.881889in" y="0.708667in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="4" leadDigits="4"/>
+               </value>
+               <bind match="dataRef" ref="$.LUGGWEIGHT"/>
+               <desc>
+                  <text name="Schema Annotation">Weight of Luggage</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="WUNIT" w="62mm" y="1.063in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="3"/>
+               </value>
+               <bind match="dataRef" ref="$.WUNIT"/>
+               <desc>
+                  <text name="Schema Annotation">Weight Unit</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="FORCURAM" w="62mm" y="1.417333in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <decimal leadDigits="13"/>
+               </value>
+               <bind match="dataRef" ref="$.FORCURAM"/>
+               <desc>
+                  <text name="Schema Annotation">Booking price in foreign currency (dependent on location)</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="FORCURKEY" w="62mm" x="2.440944in" y="1.417333in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="5"/>
+               </value>
+               <bind match="dataRef" ref="$.FORCURKEY"/>
+               <desc>
+                  <text name="Schema Annotation">Payment currency</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="ORDER_DATE" w="62mm" x="2.440944in" y="1.771667in">
+               <ui>
+                  <dateTimeEdit>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <bind match="dataRef" ref="$.ORDER_DATE">
+                  <picture>date{YYYY-MM-DD}</picture>
+               </bind>
+               <desc>
+                  <text name="Schema Annotation">Booking Date</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="PASSNAME" w="62mm" y="2.480333in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="25"/>
+               </value>
+               <bind match="dataRef" ref="$.PASSNAME"/>
+               <desc>
+                  <text name="Schema Annotation">Name of the Passenger</text>
+               </desc>
+               <border>
+                  <edge/>
+                  <edge presence="hidden"/>
+                  <edge/>
+                  <edge/>
+                  <corner/>
+                  <corner presence="hidden"/>
+                  <corner/>
+                  <corner/>
+               </border>
+            </field>
+            <assist role="TR"/>
+            <occur max="-1"/>
+            <bind match="dataRef" ref="$.DATA[*]"/>
+            <?templateDesigner expand 1?></subform>
+         <occur min="0"/>
+         <bind match="dataRef" ref="$.IT_SBOOK"/>
+         <desc>
+            <text name="Schema Annotation">Table for Flight Bookings</text>
+         </desc>
+         <overflow leader="overflowLeader"/>
+         <?templateDesigner expand 0?></subform>
+      <desc>
+         <text name="version">11.0.9.20201112.2.940716.934558</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 156 39 00030006000B000C0011001200240025002600270029002C002F00330035003600370038003A0044004600470048004A004B004C004E004F005000510052005300550056005700580059005B005C #()./ABCDFILPRSTUWacdeghiklmnoprstuvxy?>
+      <?renderCache.subset "Arial Black" 0 0 ISO-8859-1 4 40 10 00030025002F004A004C004E0051005200560057 BLgiknost?>
+      <?renderCache.subset "Courier New" 0 0 ISO-8859-1 4 40 10 0013001400150016001700180019001A001B001C0123456789?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 161?>
+   <?templateDesigner Grid show:1, snap:1, units:17, color:ff8080, origin:(0,0), interval:(79375,79375), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://coms4apdv01.pantos.com:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="72Black" typeface="72 Black" weight="normal"/>
+      <font posture="normal" psName="H2hdrM" typeface="HY헤드라인M" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZYYYYADF003">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IS_SCARR>
+            <MANDT/>
+            <CARRID/>
+            <CARRNAME/>
+            <CURRCODE/>
+            <URL/>
+         </IS_SCARR>
+         <IS_SPFLI>
+            <MANDT/>
+            <CARRID/>
+            <CONNID/>
+            <COUNTRYFR/>
+            <CITYFROM/>
+            <AIRPFROM/>
+            <COUNTRYTO/>
+            <CITYTO/>
+            <AIRPTO/>
+            <FLTIME/>
+            <DEPTIME/>
+            <ARRTIME/>
+            <DISTANCE/>
+            <DISTID/>
+            <FLTYPE/>
+            <PERIOD/>
+         </IS_SPFLI>
+         <IT_SBOOK dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <MANDT/>
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <BOOKID/>
+               <CUSTOMID/>
+               <CUSTTYPE/>
+               <SMOKER/>
+               <LUGGWEIGHT/>
+               <WUNIT/>
+               <INVOICE/>
+               <CLASS/>
+               <FORCURAM/>
+               <FORCURKEY/>
+               <LOCCURAM/>
+               <LOCCURKEY/>
+               <ORDER_DATE/>
+               <COUNTER/>
+               <AGENCYNUM/>
+               <CANCELLED/>
+               <RESERVED/>
+               <PASSNAME/>
+               <PASSFORM/>
+               <PASSBIRTH/>
+            </DATA>
+         </IT_SBOOK>
+         <SFPSY>
+            <DATE/>
+            <TIME/>
+            <USERNAME/>
+            <SUBRC/>
+         </SFPSY>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="한국어(대한민국)" name="ko_KR">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <dayNames>
+            <day>일요일</day>
+            <day>월요일</day>
+            <day>화요일</day>
+            <day>수요일</day>
+            <day>목요일</day>
+            <day>금요일</day>
+            <day>토요일</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>일</day>
+            <day>월</day>
+            <day>화</day>
+            <day>수</day>
+            <day>목</day>
+            <day>금</day>
+            <day>토</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>오전</meridiem>
+            <meridiem>오후</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>기원전</era>
+            <era>서기</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">YYYY'년' M'월' D'일' EEEE</datePattern>
+         <datePattern name="long">YYYY'년' M'월' D'일'</datePattern>
+         <datePattern name="med">YYYY. MM. DD</datePattern>
+         <datePattern name="short">YY. MM. DD</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">A hh'시' MM'분' SS'초' Z</timePattern>
+         <timePattern name="long">A hh'시' MM'분' SS'초'</timePattern>
+         <timePattern name="med">A h:MM:SS</timePattern>
+         <timePattern name="short">A h:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">￦</currencySymbol>
+         <currencySymbol name="isoname">KRW</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 81.161580, 2017/12/01-01:38:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2023-01-05T08:25:25Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:60035081-7be7-469e-a862-24fac2ff781c</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20201112.2.940716.934558</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

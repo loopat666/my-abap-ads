@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20201112.2.940716_SAP" APIVersion="3.6.20316.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2023-01-05T02:22:06Z" uuid="3af85a00-513f-44ee-9a4e-72d66179564d">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="ko_KR" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="284.3mm" w="197.3mm" x="0.25in" y="0.25in"/>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Form1" w="197.3mm">
+         <bind match="none"/>
+         <subform columnWidths="24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm 24.2094mm" layout="table" name="IT_SBOOK">
+            <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="85FA5515-553D-40C2-8342-9AB3E031DD90">Date</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="5461F095-82F5-4A04-84E9-ECF948431706">Booking</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="F0080BBA-A79C-4057-9775-4A64881F1B91">Wt</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="FF6CC0D7-D081-422A-AF67-776F0544FCB2">in</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="57F4B924-1919-48B0-AE97-4DFE377C004A">Amount (for.currncy)</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="5D4B9A3A-2117-4B3E-8592-FDAC0490C847">Curr.</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="299E2B41-FCD0-4DC1-89E1-A84ED22EBA6B">Book.date</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <draw>
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xliff:rid="9820E1A8-B0F2-410F-A3C9-7DFB70AB2087">Name of the Passenger</text>
+                  </value>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge/>
+                     <fill>
+                        <color value="231,206,255"/>
+                     </fill>
+                  </border>
+               </draw>
+               <assist role="TH"/>
+               <occur max="-1"/>
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="DATA">
+               <field h="9mm" name="FLDATE" w="62mm" y="0.354333in">
+                  <ui>
+                     <dateTimeEdit>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <bind match="dataRef" ref="$.FLDATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Flight date</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="BOOKID" w="62mm" x="2.440944in" y="0.354333in">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <bind match="dataRef" ref="$.BOOKID"/>
+                  <desc>
+                     <text name="Schema Annotation">Booking number</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="LUGGWEIGHT" w="62mm" x="4.881889in" y="0.708667in">
+                  <ui>
+                     <numericEdit>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="4" leadDigits="4"/>
+                  </value>
+                  <bind match="dataRef" ref="$.LUGGWEIGHT"/>
+                  <desc>
+                     <text name="Schema Annotation">Weight of Luggage</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="WUNIT" w="62mm" y="1.063in">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+                  <bind match="dataRef" ref="$.WUNIT"/>
+                  <desc>
+                     <text name="Schema Annotation">Weight Unit</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="FORCURAM" w="62mm" y="1.417333in">
+                  <ui>
+                     <numericEdit>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <decimal leadDigits="13"/>
+                  </value>
+                  <bind match="dataRef" ref="$.FORCURAM"/>
+                  <desc>
+                     <text name="Schema Annotation">Booking price in foreign currency (dependent on location)</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="FORCURKEY" w="62mm" x="2.440944in" y="1.417333in">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="5"/>
+                  </value>
+                  <bind match="dataRef" ref="$.FORCURKEY"/>
+                  <desc>
+                     <text name="Schema Annotation">Payment currency</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="ORDER_DATE" w="62mm" x="2.440944in" y="1.771667in">
+                  <ui>
+                     <dateTimeEdit>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <bind match="dataRef" ref="$.ORDER_DATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Booking Date</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <field h="9mm" name="PASSNAME" w="62mm" y="2.480333in">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="25"/>
+                  </value>
+                  <bind match="dataRef" ref="$.PASSNAME"/>
+                  <desc>
+                     <text name="Schema Annotation">Name of the Passenger</text>
+                  </desc>
+                  <border>
+                     <edge/>
+                  </border>
+               </field>
+               <assist role="TR"/>
+               <occur max="-1"/>
+               <bind match="dataRef" ref="$.DATA[*]"/>
+               <?templateDesigner expand 1?>
+               <border>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="240,240,240"/>
+                  </fill>
+               </border>
+               <event activity="indexChange" name="event__indexChange">
+                  <script contentType="application/x-javascript" runAt="both">//{{Adobe LiveCycle Designer Generated Code Begin}} - row shading script. Don't modify it!
+
+var Freqs=[1,1];
+
+var Colors=["240,240,240","192,192,192"];
+
+var nFreqSize = 0;
+
+for (var i=0; i&lt;Freqs.length; i++)
+
+  nFreqSize += Freqs[i];
+
+var nRelIndex = this.index % nFreqSize + 1;
+
+for (var nRun=0; nRun&lt;Freqs.length; nRun++)
+
+{
+
+   if (nRelIndex&gt;Freqs[nRun])
+
+   {
+
+        nRelIndex -= Freqs[nRun];
+
+   }
+
+   else
+
+   {
+
+      this.border.fill.color.value = Colors[nRun];
+
+      break;
+
+   }
+
+}
+
+//{{Adobe LiveCycle Designer Generated Code End}} - row shading script.
+
+
+</script>
+               </event>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:c0c0c0, apply:1?></subform>
+            <occur min="0"/>
+            <bind match="dataRef" ref="$.IT_SBOOK"/>
+            <desc>
+               <text name="Schema Annotation">Table for Flight Bookings</text>
+            </desc>
+            <overflow leader="overflowLeader"/>
+            <?templateDesigner expand 1?>
+            <border>
+               <edge presence="hidden"/>
+            </border>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:c0c0c0, apply:1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <subform h="284.3mm" w="197.3mm"/>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20201112.2.940716.934558</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 112 28 0003000B000C0011002400250026002700310033003A00440046004700480049004A004B004C004E0050005100520055005600570058005C ().ABCDNPWacdefghikmnorstuy?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 143?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://coms4apdv01.pantos.com:8000/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZYYYYADF001">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IS_SCARR>
+            <MANDT/>
+            <CARRID/>
+            <CARRNAME/>
+            <CURRCODE/>
+            <URL/>
+         </IS_SCARR>
+         <IT_SBOOK dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <MANDT/>
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <BOOKID/>
+               <CUSTOMID/>
+               <CUSTTYPE/>
+               <SMOKER/>
+               <LUGGWEIGHT/>
+               <WUNIT/>
+               <INVOICE/>
+               <CLASS/>
+               <FORCURAM/>
+               <FORCURKEY/>
+               <LOCCURAM/>
+               <LOCCURKEY/>
+               <ORDER_DATE/>
+               <COUNTER/>
+               <AGENCYNUM/>
+               <CANCELLED/>
+               <RESERVED/>
+               <PASSNAME/>
+               <PASSFORM/>
+               <PASSBIRTH/>
+            </DATA>
+         </IT_SBOOK>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="한국어(대한민국)" name="ko_KR">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <dayNames>
+            <day>일요일</day>
+            <day>월요일</day>
+            <day>화요일</day>
+            <day>수요일</day>
+            <day>목요일</day>
+            <day>금요일</day>
+            <day>토요일</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>일</day>
+            <day>월</day>
+            <day>화</day>
+            <day>수</day>
+            <day>목</day>
+            <day>금</day>
+            <day>토</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>오전</meridiem>
+            <meridiem>오후</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>기원전</era>
+            <era>서기</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">YYYY'년' M'월' D'일' EEEE</datePattern>
+         <datePattern name="long">YYYY'년' M'월' D'일'</datePattern>
+         <datePattern name="med">YYYY. MM. DD</datePattern>
+         <datePattern name="short">YY. MM. DD</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">A hh'시' MM'분' SS'초' Z</timePattern>
+         <timePattern name="long">A hh'시' MM'분' SS'초'</timePattern>
+         <timePattern name="med">A h:MM:SS</timePattern>
+         <timePattern name="short">A h:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">￦</currencySymbol>
+         <currencySymbol name="isoname">KRW</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 81.161580, 2017/12/01-01:38:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2023-01-05T02:22:06Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:3af85a00-513f-44ee-9a4e-72d66179564d</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20201112.2.940716.934558</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
