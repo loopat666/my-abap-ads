@@ -1,8 +1,13 @@
-# Adobe Form for ABAP
+# Adobe Form for ABAP (ADS)
+#adobe
+
+Adobe Lifecycle Designer 에 대한 사용 설명
+
+## 기능 설명
+
+[ADS 관련 정리 자료](https://github.com/loopat666/my-abap-wiki/blob/main)
+
+SAP Package : `SFPT`
 
 
-* Form 디자인 방법
-* Table 이 Page 넘기기 설정
-* 이미지 출력
 
-2023.01.06 적용
