@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20201112.2.940716_SAP" APIVersion="3.6.20316.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2023-10-04T08:09:31Z" uuid="47c31b0d-2c8e-4960-a498-0cd379aa6900">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="ko_KR" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="180.975mm" id="contentArea_ID" w="203.2mm" x="6.35mm" y="53.975mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Main" w="8in">
+         <subform h="209.55mm" name="Data" w="203.2mm">
+            <bind match="none"/>
+            <draw h="9.525mm" name="Text1" w="31.75mm" x="85.725mm" y="6.35mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="26DC4BAF-F45E-4F3C-9231-32F8A719B85C">Flights Data</text>
+               </value>
+               <font size="14pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center"/>
+               <?renderCache.bounds 87166 24166 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 12 Flights Data 0 7652 12471 0 0 0 "Arial" 0 0 14000 ISO-8859-1?></draw>
+            <field h="9mm" name="CARRID" w="62mm" x="6.35mm" y="22.225mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="96DBC257-BE23-4A3C-8A78-E42621B888D0">ID</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="3"/>
+               </value>
+               <bind match="dataRef" ref="$record.LS_SCARR.CARRID"/>
+               <desc>
+                  <text name="Schema Annotation">항공사 코드</text>
+               </desc>
+            </field>
+            <field h="9mm" name="CARRNAME" w="62mm" x="6.35mm" y="31.75mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Adobe Myungjo Std M"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="C23D0DBD-10B8-4AE2-B3D1-1BE69AD53CAE">항공사</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="20"/>
+               </value>
+               <bind match="dataRef" ref="$record.LS_SCARR.CARRNAME"/>
+               <desc>
+                  <text name="Schema Annotation">항공사이름</text>
+               </desc>
+            </field>
+            <field h="9mm" name="URL" w="62mm" x="85.725mm" y="22.75mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Adobe Myungjo Std M"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="575EEB1E-D8C8-43B3-A02C-5B749001AD78">항공사 URL</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <bind match="dataRef" ref="$record.LS_SCARR.URL"/>
+               <desc>
+                  <text name="Schema Annotation">항공사 URL</text>
+               </desc>
+            </field>
+            <keep intact="none"/>
+            <breakBefore target="Page1" targetType="pageArea"/>
+            <?templateDesigner expand 1?></subform>
+         <subform h="50mm" name="bottom" w="203.2mm">
+            <bind match="none"/>
+            <field h="9mm" name="CARRNAME" w="62mm" x="3.175mm" y="9.525mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Adobe Myungjo Std M"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="C8CE7340-6E1F-4048-AD32-0258D755C173">항공사</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="20"/>
+               </value>
+               <bind match="dataRef" ref="$record.LS_SCARR.CARRNAME"/>
+               <desc>
+                  <text name="Schema Annotation">항공사이름</text>
+               </desc>
+            </field>
+            <field h="9mm" name="URL" w="62mm" x="79.375mm" y="9.525mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Adobe Myungjo Std M"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="8F7FE11F-01CC-4F3C-90C5-7C923545D0D8">항공사 URL</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <bind match="dataRef" ref="$record.LS_SCARR.URL"/>
+               <desc>
+                  <text name="Schema Annotation">항공사 URL</text>
+               </desc>
+            </field>
+            <keep intact="none"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <subform columnWidths="16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm 16.4042mm" layout="table" name="LT_SFLIGHT">
+         <subform id="overflowLeader_ID" layout="row" name="overflowLeader">
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="2F20468E-D331-4416-B907-DE2B29143358">No.</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="AAB6DC14-BE19-4692-AAED-CBF8D8A18D24">일자</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="43E6264E-933A-4F51-8E3B-3DBBF4A11EC8">항공 요금</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="B5105D01-5EB3-4F0E-A60C-2742C14556C9">통화</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="C40C8143-CD13-4DDF-B115-774206CE14F6">항공기</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="CE0EB1D6-C5A5-4548-9EAD-CE513CF6E5D3">일반석 정원</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="F7B57D78-44C0-4F71-B3F9-C60EB6E85FB7">예약된 일반석</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="32D35BAA-52EB-479E-A6D9-8D910A7DFAF8">예약 총계</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="929BBC43-9402-4624-B050-BEB9715FBE79">비즈니스 클래스 정원</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="4C981BBB-603D-450F-B853-D039B5F545EC">비즈니스석 점유</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="D9C8498A-797B-4A69-BB6B-4B3490B1E18A">퍼스트 클래스 정원</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <draw>
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xliff:rid="B6C06CE7-F240-4003-9DCC-C5A4836DCBA0">일등석 점유</text>
+               </value>
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <border>
+                  <edge/>
+               </border>
+            </draw>
+            <assist role="TH"/>
+            <occur max="-1"/>
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="row" name="DATA">
+            <field h="9mm" name="CONNID" w="62mm" x="4.881889in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="4"/>
+               </value>
+               <bind match="dataRef" ref="$.CONNID"/>
+               <desc>
+                  <text name="Schema Annotation">항공편 연결 번호</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="FLDATE" w="62mm" y="0.354333in">
+               <ui>
+                  <dateTimeEdit>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <bind match="dataRef" ref="$.FLDATE">
+                  <picture>date{YYYY-MM-DD}</picture>
+               </bind>
+               <desc>
+                  <text name="Schema Annotation">항공편 일자</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="PRICE" w="62mm" x="2.440944in" y="0.354333in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <decimal leadDigits="13"/>
+               </value>
+               <bind match="dataRef" ref="$.PRICE"/>
+               <desc>
+                  <text name="Schema Annotation">항공 요금</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="CURRENCY" w="62mm" x="4.881889in" y="0.354333in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="5"/>
+               </value>
+               <bind match="dataRef" ref="$.CURRENCY"/>
+               <desc>
+                  <text name="Schema Annotation">항공사의 현지통화</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="PLANETYPE" w="62mm" y="0.708667in">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text maxChars="10"/>
+               </value>
+               <bind match="dataRef" ref="$.PLANETYPE"/>
+               <desc>
+                  <text name="Schema Annotation">항공기 유형</text>
+               </desc>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSMAX" w="62mm" x="2.440944in" y="0.708667in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSMAX"/>
+               <desc>
+                  <text name="Schema Annotation">일반석 최대 정원</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSOCC" w="62mm" x="4.881889in" y="0.708667in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSOCC"/>
+               <desc>
+                  <text name="Schema Annotation">일반석으로 예약된 좌석</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="PAYMENTSUM" w="62mm" y="1.063in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <decimal leadDigits="15"/>
+               </value>
+               <bind match="dataRef" ref="$.PAYMENTSUM"/>
+               <desc>
+                  <text name="Schema Annotation">현재 예약 총계</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSMAX_B" w="62mm" x="2.440944in" y="1.063in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSMAX_B"/>
+               <desc>
+                  <text name="Schema Annotation">비즈니스 클래스 최대 정원</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSOCC_B" w="62mm" x="4.881889in" y="1.063in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSOCC_B"/>
+               <desc>
+                  <text name="Schema Annotation">비즈니스석 점유 좌석</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSMAX_F" w="62mm" y="1.417333in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSMAX_F"/>
+               <desc>
+                  <text name="Schema Annotation">퍼스트 클래스 최대 정원</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <field h="9mm" name="SEATSOCC_F" w="62mm" x="2.440944in" y="1.417333in">
+               <ui>
+                  <numericEdit>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer/>
+               </value>
+               <bind match="dataRef" ref="$.SEATSOCC_F"/>
+               <desc>
+                  <text name="Schema Annotation">일등석의 점유 좌석</text>
+               </desc>
+               <validate nullTest="error">
+                  <script contentType="application/x-javascript">function testTotalDigits(maxDigits)
+
+{
+
+  var value = this.rawValue.toString();
+
+  var numDigits = 0;
+
+  for (i = 0; i &lt; value.length; i++)
+
+  {
+
+    if (value.charAt(i) &gt;= '0' &amp;&amp; value.charAt(i) &lt;= '9')
+
+      numDigits++;
+
+  }
+
+  return (numDigits &lt;= maxDigits);
+
+}
+
+this.isNull || (this.rawValue &gt;= -2147483648 &amp;&amp; this.rawValue &lt;= 2147483647 &amp;&amp; testTotalDigits(10));
+
+</script>
+               </validate>
+               <border>
+                  <edge/>
+               </border>
+            </field>
+            <assist role="TR"/>
+            <occur max="-1"/>
+            <bind match="dataRef" ref="$.DATA[*]"/>
+            <?templateDesigner expand 1?>
+            <border>
+               <edge presence="hidden"/>
+               <fill>
+                  <color value="240,240,240"/>
+               </fill>
+            </border>
+            <event activity="indexChange" name="event__indexChange">
+               <script contentType="application/x-javascript" runAt="both">//{{Adobe LiveCycle Designer Generated Code Begin}} - row shading script. Don't modify it!
+var Freqs=[1,1];
+var Colors=["240,240,240","255,255,255"];
+var nFreqSize = 0;
+for (var i=0; i&lt;Freqs.length; i++)
+  nFreqSize += Freqs[i];
+var nRelIndex = this.index % nFreqSize + 1;
+for (var nRun=0; nRun&lt;Freqs.length; nRun++)
+{
+   if (nRelIndex&gt;Freqs[nRun])
+   {
+        nRelIndex -= Freqs[nRun];
+   }
+   else
+   {
+      this.border.fill.color.value = Colors[nRun];
+      break;
+   }
+}
+//{{Adobe LiveCycle Designer Generated Code End}} - row shading script.
+</script>
+            </event>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:1?></subform>
+         <occur min="0"/>
+         <bind match="dataRef" ref="$.LT_SFLIGHT"/>
+         <desc>
+            <text name="Schema Annotation">Table of Flights</text>
+         </desc>
+         <overflow leader="overflowLeader"/>
+         <?templateDesigner expand 0?>
+         <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:1?></subform>
+      <desc>
+         <text name="version">11.0.9.20201112.2.940716.934558</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Adobe Myungjo Std M" 0 0 KSC-5601 4 136 94 0001002D003300360485049504D804DD05E4063B066106D007C8083A088E08B3091D09A109D80A030A170A2C0A4C0A570A7C0A7F0AC90B680BFF0C3E0C5F0C8C0CE60D1A LRU계공금기니된등래반비사석스약예요원유일자점정즈총클통트퍼항화?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 56 14 0003001100270029002C00310044004A004B004C004F005200560057 .DFINaghilost?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner Grid show:1, snap:1, units:17, color:ff8080, origin:(0,0), interval:(79375,79375), objsnap:1, guidesnap:1, pagecentersnap:1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 143?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:1?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://vhivnds4ci.sap.invitrosco.com:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZZDEV0433_ADF005">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <LT_SFLIGHT dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <MANDT/>
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <PRICE/>
+               <CURRENCY/>
+               <PLANETYPE/>
+               <SEATSMAX/>
+               <SEATSOCC/>
+               <PAYMENTSUM/>
+               <SEATSMAX_B/>
+               <SEATSOCC_B/>
+               <SEATSMAX_F/>
+               <SEATSOCC_F/>
+            </DATA>
+         </LT_SFLIGHT>
+         <LS_SCARR>
+            <MANDT/>
+            <CARRID/>
+            <CARRNAME/>
+            <CURRCODE/>
+            <URL/>
+         </LS_SCARR>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="한국어(대한민국)" name="ko_KR">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <dayNames>
+            <day>일요일</day>
+            <day>월요일</day>
+            <day>화요일</day>
+            <day>수요일</day>
+            <day>목요일</day>
+            <day>금요일</day>
+            <day>토요일</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>일</day>
+            <day>월</day>
+            <day>화</day>
+            <day>수</day>
+            <day>목</day>
+            <day>금</day>
+            <day>토</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>오전</meridiem>
+            <meridiem>오후</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>기원전</era>
+            <era>서기</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">YYYY'년' M'월' D'일' EEEE</datePattern>
+         <datePattern name="long">YYYY'년' M'월' D'일'</datePattern>
+         <datePattern name="med">YYYY. MM. DD</datePattern>
+         <datePattern name="short">YY. MM. DD</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">A hh'시' MM'분' SS'초' Z</timePattern>
+         <timePattern name="long">A hh'시' MM'분' SS'초'</timePattern>
+         <timePattern name="med">A h:MM:SS</timePattern>
+         <timePattern name="short">A h:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">￦</currencySymbol>
+         <currencySymbol name="isoname">KRW</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 81.161580, 2017/12/01-01:38:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2023-10-04T08:09:31Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:47c31b0d-2c8e-4960-a498-0cd379aa6900</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20201112.2.940716.934558</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
