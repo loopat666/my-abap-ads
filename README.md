@@ -1,4 +1,4 @@
-# Adobe Form for ABAP (ADS)
+# Adobe Document Service (Adobe Form for ABAP)
 #adobe
 
 Adobe Lifecycle Designer 에 대한 사용 설명
