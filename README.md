@@ -19,3 +19,8 @@ SAP Package : `SFPT`
 - [SAP Interactive Forms by Adobe](https://help.sap.com/docs/SAP_NETWEAVER_700/109111ab6c531014b0f4bc2b77d18606/b764348655fb46149098d95bdca103d0.html)
 - [PDF-Based Print Forms](https://help.sap.com/docs/SAP_NETWEAVER_700/109111ab6c531014b0f4bc2b77d18606/c84adf7ba13c4ac1b4600d4df15f8b84.html)
 
+
+### Fonts 관련
+
+- [Fonts and Adobe Forms in SAP with Adobe Document Services](https://joeysbasisblog.blogspot.com/2009/11/fonts-and-adobe-forms-in-sap-with-adobe.html)
+- [Adding Fonts to Adobe Live Cycle Designer font palette](https://community.sap.com/t5/technology-q-a/adding-fonts-to-adobe-live-cycle-designer-font-palette/qaq-p/3723874)
