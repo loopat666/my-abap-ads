@@ -25,3 +25,4 @@ SAP Package : `SFPT`
 - [Fonts and Adobe Forms in SAP with Adobe Document Services](https://joeysbasisblog.blogspot.com/2009/11/fonts-and-adobe-forms-in-sap-with-adobe.html)
 - [Adding Fonts to Adobe Live Cycle Designer font palette](https://community.sap.com/t5/technology-q-a/adding-fonts-to-adobe-live-cycle-designer-font-palette/qaq-p/3723874)
 - [Adobe Document Services - Configuration - Adding Fonts](https://help.sap.com/docs/SAP_NETWEAVER_700/12a7497b6c5310148097c50358d4118c/4b95ae9c26f26e83e10000000a421937.html?locale=en-US)
+- [Adding Fonts ](https://help.sap.com/doc/saphelp_scm700_ehp01/7.0.1/en-US/d0/cdf29623c8432fa1545df5f43176de/content.htm?no_cache=true#:~:text=Procedure%20To%20add%20fonts%20proceed%20as%20follows%3A%201.,step.%203.%20Copy%20your%20fonts%20into%20the%20%2Fusr%2Fsap%2F%3CSID%3E%2FSYS%2Fglobal%2FAdobeDocumentServices%2F)
