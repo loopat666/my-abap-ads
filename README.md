@@ -13,23 +13,7 @@ SAP Package : `SFPT`
 
 ### Multi Data 출력하기
 
-한라인에 멀티 데이터 출력하기.
-
-Data Sets:
-
-![image](https://github.com/user-attachments/assets/2c5547ab-519b-49a7-bef8-67ac2adb06db)
-
-Display 결과:
-
-![image](https://github.com/user-attachments/assets/e3b62e42-354a-42aa-a278-0ce60b3bb4e6)
-
-
-ASD Forms:
-
-![image](https://github.com/user-attachments/assets/ef5904ec-715b-4aab-a78a-ce291b49cac1)
-
-
-[참조 프로그램](/src/zzbxt05ads_010.prog.abap)
+[Multi Line Data](https://github.com/loopat666/my-abap-ads/blob/80d86c334bf18ae23b92fb144a88f40214b1e1e0/2024-06-05%20%EB%A9%80%ED%8B%B0%EB%9D%BC%EC%9D%B8%20%EA%B5%AC%ED%98%84%20%EB%B0%A9%EB%B2%95.md)
 
 
 
