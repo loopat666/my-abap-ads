@@ -16,7 +16,7 @@ SAP Package : `SFPT`
 
 ## Demo
 
-[README.md](https://github.com/loopat666/my-abap-ads/tree/35e0fdcb9bb27ec0404571308f7751cd90f69c0b)
+[Demo README.md](https://github.com/loopat666/my-abap-ads/blob/362bd6493340badf42c5ece18dcf8bf6c49c020d/ads%20demo.md)
 
 ### Multi Data 출력하기
 
