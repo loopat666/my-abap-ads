@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20201112.2.940716_SAP" APIVersion="3.6.20316.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-04-24T07:27:23Z" uuid="50080ae3-3b9f-46f3-8810-485b35c80706">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform layout="tb" locale="ko_KR" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="212.725mm" w="197.3mm" x="6.35mm" y="44.45mm"/>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <subform h="41.275mm" name="HeaderContent" w="197.3mm" x="6.35mm" y="3.175mm">
+               <bind match="none"/>
+               <draw h="9.525mm" name="Text1" w="63.5mm" x="66.94mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="D26C64BD-1806-407D-8590-A0672F4F499C">Purchase Order</text>
+                  </value>
+                  <font size="18pt" typeface="Adobe Myungjo Std M"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge thickness="1mm"/>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner/>
+                     <corner thickness="1mm"/>
+                     <corner/>
+                  </border>
+                  <?renderCache.bounds 177166 24166 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 14 Purchase Order 0 21052 19962 0 0 0 "Adobe Myungjo Std M" 0 0 18000 KSC-5601?></draw>
+               <field h="7mm" name="TextField1" w="53.975mm" y="12.7mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Adobe Myungjo Std M"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="18.2176mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="0104C49F-FBD0-4952-ACA7-D8F2CAC34008">발주번호 :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.PO_HEADER.EBELN"/>
+               </field>
+               <field h="6mm" name="TextField1" w="88.9mm" x="101.6mm" y="12.7mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Adobe Myungjo Std M"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="18.2176mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="4653B003-C9E3-4A8D-9986-C636015485C1">업체명 :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.PO_HEADER.VENDOR_NAME"/>
+               </field>
+               <field h="6mm" name="TextField1" w="88.9mm" x="101.6mm" y="18.7mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Adobe Myungjo Std M"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="18.2176mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="E93399C7-5213-4EA1-A242-20B49682F600">주소 :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.PO_HEADER.VENDOR_ADDRESS"/>
+               </field>
+               <field h="6mm" name="TextField1" w="88.9mm" x="101.6mm" y="25.4mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Adobe Myungjo Std M"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="18.2176mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="9E876C0E-E3A5-4F9D-A565-49DE356D1009">연락처 :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.PO_HEADER.VENDOR_TEL"/>
+               </field>
+               <?templateDesigner expand 0?>
+               <draw h="9mm" id="SAP_Logo_for_Native_copy3_copy1" name="SAP_Logo" w="20mm" x="177.3mm" y="0mm">
+                  <value>
+                     <image contentType="image/bmp">Qk0yDwAAAAAAAAAAAAAoAAAASQAAACUAAAABAAgAAAAAAPwKAAAAAAAAAAAAAAABAAAAAQAAZjMA
+AOLZzwCff18AeUwfAMWynwD3//8AjGU/ALKZfwDPv68A7OXfAG8/DwCDWTAAqYxvAJZzUADZzL8A
+vKWPAPXy7wD///8AxbShALOZgACggGAA49nQAL2llACpjXAAcEAQAPf37wD///8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFBQUF
+BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUFBQUF
+BQUFBQUFERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAASBQUFBQUFBQUFBREREREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIFBQUFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAUF
+BQUFBQUFERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAEBQUFBQUFBREREREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFBQUFBQURERERERERERERERER
+EREREREREREREREAAAAAAAAAAAALBg0HBgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BAUFBQUFERERERERERERERERERERERERERERERERAAAAAAAKAggREREREREREAQDDxEREREREAAA
+AAAAAAAAAAQRERERERERERERBgAEBQUFBREREREREREREREREREREREREREREREREQAAAAAHEBER
+EREREREREREREQQRERERERENAAAAAAAAAAAQEREREREREREREQYAAAQFBQURERERERERERERERER
+EREREREREREREREAAAAABBERERERERERERERERERERERERERBAADBgYGCwANEREREREREREREREG
+AAAAEgUFERERERERERERERERERERERERERERERERAAAAAAMRERERERERERERERERERERERERERAJ
+ERERERERCRERERERERERERERBgAAAAAEBREREREREREREREREREREREREREREREREQAAAAAABBER
+EQ4TExMEEREREREREREREREREREREREREREREREREREREREREQYAAAAAAAQRERERERERERERERER
+EREREREREREREREAAAAAAAMQExgAAAAAAAYREREREREREREREREREREREREREREREREBEREREREG
+AAAAAAAABBERERERERERERERERERERERERERERERAAAAAAAACxgAAAAAAAAKERERERERERERERER
+EREREREREREREREEDhERERERDAYLAAAAAAASEREREREREREREREREREREREREREREQAAAAAAAAAA
+AAAAAAADAREREREREREREREREREODg4QERERERERDQ4RERERERERERERAQcDABIRERERERERERER
+EREREREREREREREAAAAAAAAAAAAAAwwBEREREREREREOEREREREPAAAACxEREREREAAOERERERER
+EREREREREQcAEhERERERERERERERERERERERERERAAAAAAAAAAACCBEREREREREREREOAxERERER
+CQAAABcREREREQ8ADhERERERERERERERERERBAASEREREREREREREREREREREREREQAAAAAAAAsB
+EREREREREREREREQCwABERERERELAAABERERERELAA4RERERERERERERERERERECABIRERERERER
+EREREREREREREREAAAAAAAIQEREREREREREREREBCwAAAhERERERDwADEREREREBAAAOEREREREV
+DhURERERERERCQAAEhERERERERERERERERERERERAAAAAAMQEREREREREREREQkXAAAAABgRERER
+EQEAFxERERERDAAADhERERERBgAAABcRERERERELAAAEEREREREREREREREREREREQAAAAAEERER
+EREREREQBAYAAAAAAAAABBERERERAwgREREREQMAAA4REREREQYAAAAADhERERERAgAAAAQRERER
+EREREREREREREREAAAAACREREREREQ4UAAAAAAAAAAAAAA0RERERERcVEREREQgAAAAOEREREREG
+AAAAABMREREREQcAAAAABBERERERERERERERERERAAAAABEREREREQ8AAAAAAAAAAAAAAAAACRER
+EREQARERERECAAAADhERERERBgAAAAAPERERERECAAAAAAAEEREREREREREREREREQAAAAAQERER
+EREDAAAAAAAAAw8DAAAAAA8REREREREREREQAAAAAA4REREREQYAAAALEBERERERBgAAAAAAABIR
+EREREREREREREREAAAAACBERERERCQwGBg0HARERBgAAAAADERERERERERERBAAAAAAOEREREREE
+BwcIEREREREREAAAAAAAAAAAEhERERERERERERERAAAAAAYREREREREREREREREREQEAAAAAAAER
+EREREREREQsAAAAADhEREREREREREREREREREQcAAAAAAAAAAAAEEREREREREREREQAAAAAABBER
+ERERERERERERERERAgAAAAACEREREREREQkAAAAAAA4REREREREREREREREREQEYAAAAAAAAAAAA
+AAQREREREREREREAAAAAAAAEEREREREREREREREREQkAAAAAGBEREREREREHAAAAAAAOERERERER
+EREREREREQQYAAAAAAAAAAAAAAAABBERERERERERAAAAAAAAAA0BERERERERERERCBQAAAAAAAAE
+ERERERERAwAAAAAADhEREREREREREREBDwsAAAAAAAAAAAAAAAAAAAAEEREREREREQAAAAAAAAAA
+AAMUExMTExQGAAAAAAAAAAAAAwYGBgYGBgAAAAAAAAsGBgYGBgYGBgMAAAAAAAAAAAAAAAAAAAAA
+AAAAABIREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEREREQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAABIREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABIAAAA=</image>
+                  </value>
+                  <ui>
+                     <imageEdit/>
+                  </ui>
+                  <assist>
+                     <toolTip xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1023" xliff:rid="N1023">SAP Logo</toolTip>
+                     <speak priority="toolTip"/>
+                  </assist>
+               </draw>
+            </subform>
+            <field access="readOnly" h="7.5mm" id="floatingField000041" name="CurrentPage" presence="hidden" w="55mm" x="62.866mm" y="285.75mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="FB993B33-47CA-4181-B954-216B23488308">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder #?>
+               <bind match="none"/>
+            </field>
+            <field access="readOnly" h="7.5mm" id="floatingField018467" name="PageCount" presence="hidden" w="55mm" x="62.866mm" y="285.75mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="C3EC32EF-F514-4F1B-B5FE-EDE2C4613AB1">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder ##?>
+               <bind match="none"/>
+            </field>
+            <draw name="Pages" x="92.994mm" y="285.75mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData contentType="text/html" maxLength="0" xliff:rid="294588E7-3B92-4FCF-AB76-06FF557C5E38">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p>Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+            </draw>
+            <field h="7mm" name="FullDateField1" w="55mm" x="148.65mm" y="282.278mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </dateTimeEdit>
+                  <picture>date.full{}</picture>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <caption reserve="20mm">
+                  <font size="8pt" typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="5132632A-4E33-4406-925E-4EBA3852AAB2">PO Date :</text>
+                  </value>
+               </caption>
+               <format>
+                  <picture>date.full{}</picture>
+               </format>
+               <bind match="dataRef" ref="$.TODAY"/>
+               <validate>
+                  <picture>date{YYYY'년' M'월' D'일'}</picture>
+               </validate>
+            </field>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform columnWidths="12mm 30mm 1.181111in 20mm 10mm 12mm 20mm 26mm 10mm 26mm" layout="table" name="Table1">
+         <border>
+            <edge presence="hidden"/>
+            <corner presence="hidden"/>
+         </border>
+         <subform id="HeaderRow_ID" layout="row" name="HeaderRow">
+            <assist role="TH"/>
+            <draw h="10mm" name="Cell1">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="7CE17CF5-A0F0-4B23-93EF-E8E8B3A11143">품번</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell2">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="19B5021B-09A4-4590-BAAE-7DAFE41C85BF">자재</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <subform columnWidths="15mm 15mm" layout="table" name="Table2">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden"/>
+                  <corner presence="hidden"/>
+                  <corner presence="hidden"/>
+               </border>
+               <subform layout="row" name="Row1">
+                  <assist role="TR"/>
+                  <draw colSpan="-1" h="5mm" name="Cell1">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="25F971B9-1478-4352-991C-3F053E0431B7">타이틀</text>
+                     </value>
+                     <font typeface="Adobe Myungjo Std M"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="Row2">
+                  <assist role="TR"/>
+                  <draw h="5mm" name="Cell1">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="92107291-F772-43A4-B168-A03B3BA2EC22">내역1</text>
+                     </value>
+                     <font typeface="Adobe Myungjo Std M"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <draw h="5mm" name="Cell2">
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.1778mm"/>
+                     </border>
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="3DEE1705-D13E-4AA1-9E04-8762649608B6">내역2</text>
+                     </value>
+                     <font typeface="Adobe Myungjo Std M"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para hAlign="center" vAlign="middle"/>
+                  </draw>
+                  <border>
+                     <edge presence="hidden"/>
+                  </border>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <keep intact="contentArea"/>
+               <bind match="none"/>
+               <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+               <?templateDesigner expand 1?></subform>
+            <draw h="10mm" name="Cell4">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="48179A92-8C18-4000-9FB4-2D0270F48F46">발주수량</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell5">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="03A9E720-DED2-47E6-99E0-7F6EF3C09C44">단위</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell6">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="53E471CA-27E3-4849-88F0-7232067548EA">per</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell7">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="375DEFF0-53CF-4EB1-9761-9DAE3F158AFB">단가</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell8">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="BCBEAC5A-8F8E-4CE1-B8AF-35B569C146C4">금액</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell9">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="BF459899-71F3-414E-AB52-560F658B3B59">통화</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <draw h="10mm" name="Cell10">
+               <border>
+                  <edge thickness="0.5mm"/>
+                  <corner thickness="0.5mm"/>
+                  <fill>
+                     <color value="255,204,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.2mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner presence="hidden" thickness="0.2mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text xliff:rid="CA16B576-C573-4564-AC9C-FD1BCC2938FC">비고</text>
+               </value>
+               <font typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" vAlign="middle"/>
+            </draw>
+            <border>
+               <edge presence="hidden"/>
+            </border>
+            <occur max="-1"/>
+            <bind match="none"/>
+            <?templateDesigner expand 0?></subform>
+         <subform layout="row" name="Body">
+            <assist role="TR"/>
+            <field h="0.314958in" name="NumericField1" w="62mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <bind match="dataRef" ref="$.EBELP"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="TextField2" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <bind match="dataRef" ref="$.MATNR"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="TextField3" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <bind match="dataRef" ref="$.TXZ01"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="DecimalField1" w="62mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="-1"/>
+               </value>
+               <bind match="dataRef" ref="$.MENGE"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="TextField4" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <bind match="dataRef" ref="$.MEINS"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="TextField5" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <bind match="dataRef" ref="$.PEINH"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="DecimalField2" w="62mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="-1"/>
+               </value>
+               <bind match="dataRef" ref="$.NETPR"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="DecimalField3" w="62mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="-1"/>
+               </value>
+               <bind match="dataRef" ref="$.NETWR"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.314958in" name="TextField6" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <bind match="dataRef" ref="$.WAERS"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field minH="0.314958in" name="TextField7" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="8pt" typeface="Adobe Myungjo Std M"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <bind match="dataRef" ref="$.ZNOTE"/>
+               <border>
+                  <edge thickness="0.1mm"/>
+                  <corner thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.1mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.1mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <border>
+               <edge presence="hidden"/>
+               <fill>
+                  <color value="240,240,240"/>
+               </fill>
+            </border>
+            <bind match="dataRef" ref="$.DATA[*]"/>
+            <?templateDesigner expand 0?>
+            <occur max="-1"/>
+            <event activity="indexChange" name="event__indexChange">
+               <script runAt="both">//{{Adobe LiveCycle Designer Generated Code Begin}} - row shading script. Don't modify it!
+var nFreqSize=0
+foreach item in (1,1) do
+   nFreqSize=nFreqSize+item
+endfor
+var nRelIndex=mod($.index,nFreqSize)+1
+var nColorIndex=0
+foreach element in (1,1) do
+   if (nRelIndex&gt;element) then
+       nRelIndex=nRelIndex-element
+       nColorIndex=nColorIndex+1
+   else
+       break
+   endif
+endfor
+var nCount=0
+foreach color in ("240,240,240","255,255,255") do
+   if(nCount==nColorIndex) then
+      $.border.fill.color.value=color
+      break
+   else
+     nCount=nCount+1
+   endif
+endfor
+//{{Adobe LiveCycle Designer Generated Code End}} - row shading script.
+</script>
+            </event>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:1?></subform>
+         <subform id="FooterRow_ID" layout="row" name="FooterRow">
+            <assist role="TF"/>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <draw h="0.393694in">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden">
+                     <color value="0,0,255"/>
+                  </edge>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <field h="0.393694in" name="DecimalField4" w="62mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Adobe Myungjo Std M" weight="bold"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="right" vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="-1"/>
+               </value>
+               <bind match="dataRef" ref="$record.PO_HEADER.PRICE_SUM"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <field h="0.393694in" name="TextField8" w="62mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Adobe Myungjo Std M" weight="bold"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <bind match="dataRef" ref="$record.PO_HEADER.WAERS"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+            </field>
+            <draw h="0.393694in" w="25.4mm">
+               <font typeface="Adobe Myungjo Std M"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <fill>
+                     <color value="255,255,153"/>
+                  </fill>
+                  <edge presence="hidden"/>
+                  <edge thickness="0.5mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+                  <corner thickness="0.5mm"/>
+                  <corner presence="hidden" thickness="0.1778mm"/>
+               </border>
+               <para vAlign="middle"/>
+            </draw>
+            <border>
+               <edge presence="hidden"/>
+            </border>
+            <occur max="-1"/>
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <bind match="dataRef" ref="$.PO_ITEMS"/>
+         <overflow leader="HeaderRow"/>
+         <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:1?>
+         <?templateDesigner expand 0?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20201112.2.940716.934558</text>
+         <text name="created">2024-04-22</text>
+         <text name="description">MM PO Form
+
+
+
+
+
+
+
+Design by subquery
+
+
+
+2024-04-22</text>
+         <text name="creator">subquery</text>
+         <text name="title">MM PO Form</text>
+      </desc>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Adobe Myungjo Std M" 0 0 KSC-5601 4 220 115 0001000400120013001B00270030003100350042004400450046004700480049004A004D0050005100530054005500560059043E048A04D8057205F106C506DD077A07CA07E3083A08D708FB099809B809C909CB0A240A490A570A640AB10B4A0B530C0B0C3E0C630CBF0D100D1A #12:FOPTacdefghiloprstux가고금내단락량명발번비소수액업역연위이자재주처체타통틀품호화?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 32 8 0003001D002700320033004400480057 :DOPaet?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner DefaultCaptionFontSettings face:Adobe Myungjo Std M;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Adobe Myungjo Std M;size:10;weight:normal;style:normal?>
+   <?templateDesigner Grid show:1, snap:1, units:17, color:ff8080, origin:(0,0), interval:(79375,79375), objsnap:1, guidesnap:1, pagecentersnap:1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 121?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://VHHCDWS1WD01.SAP.HCARBON.COM:44380/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="MalgunGothic" typeface="맑은 고딕" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZZZZTEST0003_PO">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <PO_HEADER>
+            <EBELN/>
+            <VENDOR/>
+            <VENDOR_NAME/>
+            <VENDOR_ADDRESS/>
+            <VENDOR_TEL/>
+            <VENDOR_CEO/>
+            <PRICE_SUM/>
+            <WAERS/>
+         </PO_HEADER>
+         <PO_ITEMS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <EBELN/>
+               <EBELP/>
+               <MATNR/>
+               <TXZ01/>
+               <MENGE/>
+               <MEINS/>
+               <NETPR/>
+               <PEINH/>
+               <NETWR/>
+               <WAERS/>
+               <ZNOTE/>
+            </DATA>
+         </PO_ITEMS>
+         <TODAY/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="한국어(대한민국)" name="ko_KR">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>1월</month>
+            <month>2월</month>
+            <month>3월</month>
+            <month>4월</month>
+            <month>5월</month>
+            <month>6월</month>
+            <month>7월</month>
+            <month>8월</month>
+            <month>9월</month>
+            <month>10월</month>
+            <month>11월</month>
+            <month>12월</month>
+         </monthNames>
+         <dayNames>
+            <day>일요일</day>
+            <day>월요일</day>
+            <day>화요일</day>
+            <day>수요일</day>
+            <day>목요일</day>
+            <day>금요일</day>
+            <day>토요일</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>일</day>
+            <day>월</day>
+            <day>화</day>
+            <day>수</day>
+            <day>목</day>
+            <day>금</day>
+            <day>토</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>오전</meridiem>
+            <meridiem>오후</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>기원전</era>
+            <era>서기</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">YYYY'년' M'월' D'일' EEEE</datePattern>
+         <datePattern name="long">YYYY'년' M'월' D'일'</datePattern>
+         <datePattern name="med">YYYY. MM. DD</datePattern>
+         <datePattern name="short">YY. MM. DD</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">A hh'시' MM'분' SS'초' Z</timePattern>
+         <timePattern name="long">A hh'시' MM'분' SS'초'</timePattern>
+         <timePattern name="med">A h:MM:SS</timePattern>
+         <timePattern name="short">A h:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">￦</currencySymbol>
+         <currencySymbol name="isoname">KRW</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 81.161580, 2017/12/01-01:38:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2024-04-24T07:27:23Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:50080ae3-3b9f-46f3-8810-485b35c80706</xmpMM:DocumentID>
+         <dc:date>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <rdf:value>2024-04-22</rdf:value>
+                  <dc:element-refinement>dc:created</dc:element-refinement>
+               </rdf:li>
+            </rdf:Seq>
+         </dc:date>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">MM PO Form
+
+
+
+
+
+
+
+Design by subquery
+
+
+
+2024-04-22</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>subquery</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">MM PO Form</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20201112.2.940716.934558</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
