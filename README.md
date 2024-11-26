@@ -35,6 +35,7 @@ SAP Package : `SFPT`
 
 - [SAP Interactive Forms by Adobe](https://help.sap.com/docs/SAP_NETWEAVER_700/109111ab6c531014b0f4bc2b77d18606/b764348655fb46149098d95bdca103d0.html)
 - [PDF-Based Print Forms](https://help.sap.com/docs/SAP_NETWEAVER_700/109111ab6c531014b0f4bc2b77d18606/c84adf7ba13c4ac1b4600d4df15f8b84.html)
+- [Migrating SAP Smart forms to Adobe Forms](https://community.sap.com/t5/application-development-blog-posts/migrating-sap-smart-forms-to-adobe-forms/ba-p/13942881)
 
 
 ### Fonts 관련
