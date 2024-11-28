@@ -16,7 +16,7 @@ SAP Package : `SFPT`
 
 ## Demo
 
-[Demo README.md](https://github.com/loopat666/my-abap-ads/blob/362bd6493340badf42c5ece18dcf8bf6c49c020d/ads%20demo.md)
+[Demo README.md](ADS_DEMO.md)
 
 ### 구매오더 리스트 demo
 
