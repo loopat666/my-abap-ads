@@ -223,10 +223,32 @@ start-of-selection.
     message id 'ED' type 'E' number '256'.
   endif.
 
+**  call method cl_gui_frontend_services=>execute
+**    exporting
+**      document               = l_file
+**      synchronous            = 'X'
+**    exceptions
+**      cntl_error             = 1
+**      error_no_gui           = 2
+**      bad_parameter          = 3
+**      file_not_found         = 4
+**      path_not_found         = 5
+**      file_extension_unknown = 6
+**      error_execute_failed   = 7
+**      synchronous_failed     = 8
+**      not_supported_by_gui   = 9
+**      others                 = 10.
+**  if sy-subrc is not initial.
+**    message id 'ED' type 'I' number '256'.
+**  endif.
+
+  data(lv_url) =  cl_http_utility=>escape_url( unescaped = l_file ).
 
   call method cl_gui_frontend_services=>execute
     exporting
-      document               = l_file
+*     document               = l_file
+      application            = `msedge.exe`
+      parameter              = lv_url
       synchronous            = 'X'
     exceptions
       cntl_error             = 1
@@ -243,8 +265,10 @@ start-of-selection.
     message id 'ED' type 'I' number '256'.
   endif.
 
-  data l_rc type i.
+  wait up to 3 seconds.
 
+
+  data l_rc type i.
 
   call method cl_gui_frontend_services=>file_delete
     exporting
