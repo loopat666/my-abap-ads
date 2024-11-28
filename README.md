@@ -16,7 +16,7 @@ SAP Package : `SFPT`
 
 ## Demo
 
-[Demo README.md](/ads-demo.md)
+[Demo README.md](ADS_DEMO.md)
 
 ### 구매오더 리스트 demo
 
